@@ -1,6 +1,6 @@
 # gregnix
 
-Tcl/Tk, PDF, Markdown and Cairo development.
+Tcl/Tk, PDF, Markdown, and Cairo development.
 
 ## Projects
 
@@ -36,6 +36,8 @@ Pre-1.0 — refinements in progress, breaking changes possible.
   cross-app shared settings (`~/.tcldocs.rc`)
 * [tcldocs-launcher](https://github.com/gregnix/tcldocs-launcher) —
   cross-app tool launcher (Tools menu, app autodetect)
+* [tcldocs-search](https://github.com/gregnix/tcldocs-search) —
+  cross-app search component for the documentation suite
 
 **Tools**
 
@@ -49,12 +51,28 @@ Pre-1.0 — refinements in progress, breaking changes possible.
   (encryption, PDF/A, Unicode / CID fonts)
 * [pdf4tcllib](https://github.com/gregnix/pdf4tcllib) — layout,
   AcroForms, page templates
-* [tclpdfium](https://github.com/gregnix/tclpdfium) — PDFium integration
+* [tclpdfium](https://github.com/gregnix/tclpdfium) — experimental
+  PDFium integration
 
 ### Graphics
 
 * [tclmcairo](https://github.com/gregnix/tclmcairo) — Cairo bindings
-  (PDF, SVG, 2D)
+  for Tcl/Tk (PDF, SVG, PostScript, EPS, PNG)
+* [tcllunasvg](https://github.com/gregnix/tcllunasvg) — lunasvg binding
+  for Tcl (SVG → ARGB32 / PNG); pairs with tclmcairo via
+  `image_from_argb32`
+* [tkmcairo](https://github.com/gregnix/tkmcairo) — Tk widgets built
+  on tclmcairo (surface, plot, imageviewer, svgview, pageview, scene,
+  viewport)
+
+### Tk widgets
+
+* [ruledtext](https://github.com/gregnix/ruledtext) — notebook-paper
+  style text widget with lines, margins, presets, and PDF export
+* [tkprintcompat](https://github.com/gregnix/tkprintcompat) — Tk 8.6
+  compatibility layer for the modern Tk printing API
+* [tcllitehtml](https://github.com/gregnix/tcllitehtml) — HTML / CSS
+  widget for Tcl/Tk
 
 ## Platforms
 
