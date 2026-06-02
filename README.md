@@ -45,6 +45,21 @@ Pre-1.0 — refinements in progress, breaking changes possible.
   Tcl/Tk manpage indexer with FTS5 search and auto-generated
   cheatsheets
 
+### OpenDocument & spreadsheets
+
+Native OpenDocument tooling for Tcl — read / write ODF and evaluate
+spreadsheet formulas without LibreOffice, validated against real
+LibreOffice output.
+
+* [odf](https://github.com/gregnix/odf) — native OpenDocument library
+  (read / write ODT / ODS / ODG / ODC / ODB), pass-through-first
+* [ofcalc](https://github.com/gregnix/ofcalc) — OpenFormula calculation
+  engine (parser, evaluator, dependency recalc, optional `odf` adapter)
+* [refcorpus](https://github.com/gregnix/refcorpus) — shared LibreOffice
+  reference corpus and comparison tools for `odf` / `ofcalc`
+* [tcl-peg-notes](https://github.com/gregnix/tcl-peg-notes) — PEG / tcllib
+  parser docs plus PEG-in-Tcl/Tk and UNO / LibreOffice handbooks (docs)
+
 ### PDF
 
 * [pdf4tcl](https://github.com/gregnix/pdf4tcl) — fork with extensions
@@ -73,6 +88,13 @@ Pre-1.0 — refinements in progress, breaking changes possible.
   compatibility layer for the modern Tk printing API
 * [tcllitehtml](https://github.com/gregnix/tcllitehtml) — HTML / CSS
   widget for Tcl/Tk
+
+### Utility libraries
+
+* [tclutils](https://github.com/gregnix/tclutils) — general-purpose utility
+  library for Tcl
+* [tkutils](https://github.com/gregnix/tkutils) — utility and widget helpers
+  for Tk
 
 ## Platforms
 
