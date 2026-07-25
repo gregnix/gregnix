@@ -68,6 +68,8 @@ LibreOffice output.
   AcroForms, page templates
 * [tclpdfium](https://github.com/gregnix/tclpdfium) — experimental
   PDFium integration
+* [printlib](https://github.com/gregnix/printlib) — cross-platform PDF
+  printing (Windows GDI / pdfium, Linux CUPS), with Brother QL label support
 
 ### Graphics
 
