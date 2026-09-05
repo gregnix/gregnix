@@ -62,12 +62,26 @@ LibreOffice output.
 
 ### PDF
 
+Writing, reading, and modifying PDFs from pure Tcl — plus a PDFium
+binding where native speed or page rendering is needed. The reader and
+writer keep to one rule: they never touch an existing content stream,
+they overlay.
+
 * [pdf4tcl](https://github.com/gregnix/pdf4tcl) — fork with extensions
-  (encryption, PDF/A, Unicode / CID fonts)
+  (encryption, PDF/A, Unicode / CID fonts, optional content layers,
+  form fields with comb cells and date formats)
 * [pdf4tcllib](https://github.com/gregnix/pdf4tcllib) — layout,
   AcroForms, page templates
-* [tclpdfium](https://github.com/gregnix/tclpdfium) — experimental
-  PDFium integration
+* [tclpdfreader](https://github.com/gregnix/tclpdfreader) — read-only
+  inspection across three backends (pure Tcl, PDFium, qpdf): page
+  geometry, text, layers, attachments, encryption. None of the backends
+  is required; missing ones simply narrow the answer
+* [tclpdfwriter](https://github.com/gregnix/tclpdfwriter) — modify
+  existing PDFs without rewriting their content: stamp, watermark,
+  page operations, metadata, flatten
+* [tclpdfium](https://github.com/gregnix/tclpdfium) — PDFium binding:
+  text and search with rectangles, clipped and print-mode rendering,
+  page objects, form fields, flatten
 * [printlib](https://github.com/gregnix/printlib) — cross-platform PDF
   printing (Windows GDI / pdfium, Linux CUPS), with Brother QL label support
 
