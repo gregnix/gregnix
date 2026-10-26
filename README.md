@@ -1,6 +1,7 @@
 # gregnix
 
-Tcl/Tk, PDF, Markdown, and Cairo development.
+Tcl/Tk, PDF, Markdown, and Cairo development — and Tcl/Tk documentation
+in English and German.
 
 ## Projects
 
@@ -44,6 +45,15 @@ Pre-1.0 — refinements in progress, breaking changes possible.
 * [tcltk-manindex](https://github.com/gregnix/tcltk-manindex) —
   Tcl/Tk manpage indexer with FTS5 search and auto-generated
   cheatsheets
+
+### Manuals
+
+* [tcltk-manuals](https://github.com/gregnix/tcltk-manuals) — manual
+  pages for Tcl/Tk 9.0 and 8.6, Tcllib, Tklib and extensions (TDBC,
+  Thread, [incr Tcl], tDOM, expect, …) as Markdown and PDF, English
+  original and German translation, plus books on Tcl libraries
+  (tclutils, pdf4tcl, pdf4tcllib). Unofficial collection; built with
+  docir / mdstack / pdf4tcl
 
 ### OpenDocument & spreadsheets
 
